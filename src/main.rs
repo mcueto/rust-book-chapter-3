@@ -1,7 +1,7 @@
 fn main() {
-    let t = true;
+    let c = 'z';
+    let z = 'ℤ';
+    let heart_eyed_cat = '😻';
 
-    let f: bool = false; // with explicit type annotation
-
-    println!("true: {}, false: {}", t, f);
+    println!("This var ({}) has a cat on it", heart_eyed_cat);
 }
