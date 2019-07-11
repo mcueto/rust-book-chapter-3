@@ -1,8 +1,23 @@
 fn main() {
-    let x = 2.0; // f64
+    // addition
+    let sum = 5 + 10;
 
-    let y: f32 = 3.0; // f32
+    // subtraction
+    let difference = 95.5 - 4.3;
 
-    println!("{}", x);
-    println!("{}", y);
+    // multiplication
+    let product = 4 * 30;
+
+    // division
+    let quotient = 56.7 / 32.2;
+
+    // remainder
+    let remainder = 43 % 5;
+
+    // print variables values
+    println!("the sum is {}", sum);
+    println!("the difference is {}", difference);
+    println!("the product is {}", product);
+    println!("the quotient is {}", quotient);
+    println!("the remainder is {}", remainder);
 }
