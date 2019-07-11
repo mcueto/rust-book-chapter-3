@@ -1,7 +1,9 @@
 fn main() {
-    let c = 'z';
-    let z = 'ℤ';
-    let heart_eyed_cat = '😻';
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    println!("This var ({}) has a cat on it", heart_eyed_cat);
+    // println!("This tuple has data: {}", tup); // this doesnt work
+
+    // this works
+    let (x, y, z) = tup;
+    println!("This x on tuple has data: {}", x);
 }
