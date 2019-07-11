@@ -1,5 +1,37 @@
 fn main() {
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ];
 
-    println!("The second data in tup is: {}", tup.1);
+    let months: [char; 12] = [
+        'J',
+        'F',
+        'M',
+        'A',
+        'M',
+        'J',
+        'J',
+        'A',
+        'S',
+        'O',
+        'N',
+        'D'
+    ];
+
+    let first = months[0];
+    let second = months[1];
+
+    println!("first: {}", first);
+    println!("second: {}", second);
 }
